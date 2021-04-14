@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us!</title>
+</head>
+<body>
+    <h2>Meine Kontaktdaten</h2>
+    <form action="contact.php">
+        <div>
+            <label for="gender"></label>
+            <input type="radio" id="gender" value="gender" name="gender"/>Frau
+            <input type="radio" id="gender" value="gender" name="gender"/>Herr
+            </div>
+        <div>
+        <label for="firstname">Vorname</label>
+        <input type="text" id="firstname" name="firstname" placeholder="Ihr Vorname"/>
+        </div>
+        <div>
+        <label for="lastname">Nachname</label>
+        <input type="text" id="lastname" name="lastname" placeholder="Ihr Nachname" required/>
+        </div>
+        <div>
+        <label for="email">Email-Adresse</label>
+        <input type="email" id="email" name="email" placeholder="Ihre Email-Adresse" required>
+        </div>
+        <div>
+        <label for="favourite-team">Lieblings-Verein</label> 
+        <select name="favourite-team" id="favourite-team">
+            <option value="fcbayern">FC Bayern</option>
+            <option value="borussiadortmund">Borussia Dortmund</option>
+            <option value="werderbremen">Werder Bremen</option>
+        </select>
+        </div>
+        <div>
+            <label for="privacy"></label>
+            <input type="checkbox" id="privacy" value="privacy" name="privacy"/>Ja, ich erkläre mich mit den <a href="www.auto-schober.de/datenschutz">Datenschutzbestimmungen</a> einverstanden
+            </div>
+        <div>
+        <div>
+        <button type="submit">Jetzt abschicken</button>
+        </div>
+    </form>
+</body>
+</html>
