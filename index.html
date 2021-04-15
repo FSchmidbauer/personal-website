@@ -5,34 +5,53 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
     <title>Florian Schmidbauer official</title>
 </head>
 
 <body>
     <header>
-        <h6>Florian Schmidbauer</h6>
+        <br>
+        <br>        
+        <h3 class="logo">>>> Florian Schmidbauer</h3>
+        <br>
         <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="https://www.auto-schober.de">Mein aktueller Arbeitgeber</a></li>
-                <li><a href="#stationen">Meine bisherigen Stationen</a></li>
-                <li><a href="#contact">Kontakt</a></li>
-            </ul>
+            <section class="nav">
+                <a class="nav-element" href="index.html">Home</a>
+                <a class="nav-element" href="https://www.auto-schober.de" target="_blank">Mein aktueller Arbeitgeber</a>
+                <a class="nav-element" href="#stationen">Meine bisherigen Stationen</a>
+                <a class="nav-element" href="#contact">Kontakt</a>
+            </section>
         </nav>
-        <h1>Herzlich Willkommen <br>auf meiner offiziellen Online-Präsenz</h1>
-        <img src="fschmidbauer.jpg" alt="Portraitfoto von Florian Schmidbauer"><br><small>Foto: Schmidbauer</small>
+        <br>
+        <section class="intro">
+            <img src="fschmidbauer.jpg" alt="Portraitfoto von Florian Schmidbauer">
+            <h1>Herzlich Willkommen <br>auf meiner <br>offiziellen Online-Präsenz</h1>
+        </section>    
+        <br>
     </header>
     <main>
         <article>
             <h2>Allgemeines</h2>
-            <p>Mein Name ist Florian Schmidbauer, ich bin 32 Jahre alt, komme aus Landshut und arbeite aktuell im Marketing der <a href="https://www.auto-schober.de">Autohaus Schober GmbH & Co. KG.</a><br>
+            <br>
+            <p>Mein Name ist Florian Schmidbauer, ich bin 32 Jahre alt, komme aus Landshut und arbeite aktuell im Marketing der <a href="https://www.auto-schober.de" target="_blank">Autohaus Schober GmbH & Co. KG.</a><br>
             Wir sind ein relativ kleines Autohaus (ca. 25 Mitarbeiter) im Landkreis Landshut in Niederbayern, dafür aber ein mittlerweile
             sehr <strong>großer Player in Sachen Mobilität der Zukunft.</strong></p>
-            </p>Als starker Partner des H2-Projekts der Bundesregierung werden wir ab Anfang 2022 in Geisenhausen bei Landshut das <strong>weltweit erste klimaneutrale Autohaus mit Wasserstoff als 
+            <br>
+            </p>Als starker Unterstützer der H2-Bestrebungen der Bundesregierung werden wir ab Anfang 2022 in Geisenhausen bei Landshut das <strong>weltweit erste klimaneutrale Autohaus mit Wasserstoff als 
             Energieträger</strong> bauen. Und besitzen bereits jetzt die größte Wasserstoff-Flotte Europas - mit über 40 Toyota Mirai.</p>
         </article>
+        <br>
+        <section class="gallery-schober">
+            <img class="pics-gallery-schober" src="autohaus-3.jpg" alt="Energiekonzept des Autohaus Schober-Neubaus">
+            <img class="pics-gallery-schober" src="autohaus-1.jpg" alt="Totalaufnahme des Autohaus Schober, Grafik">
+            <img class="pics-gallery-schober" src="autohaus-2.jpg" alt="Nahaufnahme des Autohaus Schober-Neubaus, Grafik">
+            <img class="pics-gallery-schober" src="h2flotte-1.jpg" alt="Wasserstoffflotte des Autohaus Schober">
+        </section>
+        <br>
         <article>
             <h2>Aufgabengebiete / Verantwortungsbereiche</h2>
+            <br>
             <ol>
                 <li>Marketing</li>
                 <li>Presse- und Öffentlichkeitsarbeit</li>
@@ -40,26 +59,23 @@
                 <li>Events</li>
             </ol>
         </article>
+        <br>
         <article>
             <h2>Accounts im World Wide Web</h2>
-            <div>
-            <label for="logo-linkedin">zum Linkedin-Profil</label>
-            <a id="logo-linkedin" href="https://de.linkedin.com/in/florian-schmidbauer-54332299"><img src="logo-linkedin.png" alt="Logo Linkedin">
+            <br>
+            <div class="gallery-logos">
+            <a href="https://de.linkedin.com/in/florian-schmidbauer-54332299" target="_blank"><img class="pics-gallery-logos" src="logo-linkedin.png" alt="Logo Linkedin">
             </a>
-            </div>
-            <div>
-            <label for="logo-github">zum Github-Profil</label>
-            <a id="logo-github" href="https://github.com/FSchmidbauer/personal-website"><img src="logo-github.png" alt="Logo Github">
+            <a href="https://github.com/FSchmidbauer/personal-website" target="_blank"><img class="pics-gallery-logos" src="logo-github.png" alt="Logo Github">
             </a>
-            </div>
-            <div>
-            <label for="logo-codepen">zum Codepen-Profil</label>
-            <a href="https://codepen.io/elflocogrande/pen/bGBEvMe"><img src="logo-codepen.png" alt="Logo Codepen">
+            <a href="https://codepen.io/elflocogrande/pen/bGBEvMe" target="_blank"><img class="pics-gallery-logos" src="logo-codepen.png" alt="Logo Codepen">
             </a>
             </div>
         </article>
-        <article id="stationen">
+        <br>
+        <article class="stationen">
             <h2>Bisherige Stationen</h2>
+            <br>
             <table>
                 <thead>
                     <tr>
@@ -83,17 +99,66 @@
                 </tbody>
             </table>
         </article>
+        <br>
+        <article class="contact">
+            <h2>Kontakt</h2>
+            <br>
+            <p>Florian Schmidbauer <br>
+            Lachnerstraße 43 <br>
+            80639 München <br>
+            0151-41472893 <br>
+            <a href="mailto:f.schmidbauer@me.com">f.schmidbauer@me.com
+            </a>
+        </article>
+        <br>
+        <article class="newsletter">
+            <h2 class="newsletter-headline">Newsletter abonnieren</h2>
+            <br>
+            <form action="newsletter.php">
+                <div>
+                    <input type="radio" value="male" name="gender"> Herr
+                    <input type="radio" value="female" name="gender"> Frau
+                </div>
+                <br>
+                <div>
+                    <label for="firstname">Vorname:</label>
+                    <input type="text" id="firstname" name="firstname" placeholder="Ihr Vorname" requested>
+                </div>
+                <br>
+                <div>
+                    <label for="lastname">Nachname:</label>
+                    <input type="text" id="lastname" name="lastname" placeholder="Ihr Nachname" requested>
+                </div>
+                <br>
+                <div>
+                    <label for="email">Email-Adresse:</label>
+                    <input type="email" id="email" name="email" placeholder="Ihre Email-Adresse" requested>
+                </div>
+                <br>
+                <div>
+                    <input type="checkbox" option="jobnews" id="jobnews" value="jobnews" name="jobnews">
+                    <label for="jobnews">Job</label>
+                    <input type="checkbox" option="privatenews" id="privatenews" value="privatenews" name="privatenews">
+                    <label for="privatenews">Privates</label>
+                </div>
+                <br>
+                <div>
+                    <button class="button-newsletter" type="submit">Jetzt abschicken</button>
+                </div>
+            </form>
+        </article>
     </main>
     <footer>
-        <ul>
-            <li><a href="agb.html">AGB</a>
-            </li>
-            <li><a href="https://www.auto-schober.de/datenschutz">Datenschutz</a>
-            </li>
-            <li><a href="impressum.html">Impressum</a>
-            </li>
-        </ul>
+        <nav>
+            <section class="footernav">
+                <a class="footernav-element" href="agb.html">AGB</a>
+                <a class="footernav-element" href="https://www.auto-schober.de/datenschutz" target="_blank">Datenschutz</a>
+                <a class="footernav-element" href="impressum.html">Impressum</a>
+            </section>
+        </nav>
     </footer>
+    <br>
+    <br>
 </body>
 
 </html>
